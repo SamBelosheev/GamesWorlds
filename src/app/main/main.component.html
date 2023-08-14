@@ -1,0 +1,28 @@
+<div class="core core__container container">
+  <div  class="core__core">
+    <button class="core__button btn" [@bounceOutUp] *ngIf="visible"  (click)="visible = !visible">
+      Начать раскладку
+    </button>
+
+  </div>
+    <div class="core__paths">
+      <div [@strategy] class="core__strategy" *ngIf="!visible">
+        <a class="paths__link" [routerLink]="['/strategy']"></a>
+        /*картинку загнать в background и убрать края*/
+          <img src="" alt="Картинка головоломки">
+      </div>
+      <div [@mind] class="core__mind" *ngIf="!visible">
+        <a class="paths__link" [routerLink]="['/mind']"></a>
+        <img src="" alt="Картинка головоломки">
+      </div>
+      <div [@survivel] class="core__survivel" *ngIf="!visible">
+        <a class="paths__link" [routerLink]="['/survivel']"></a>
+        <img src="" alt="Картинка пустошей">
+      </div>
+      <div [@adventure] class="core__adventure" *ngIf="!visible">
+        <a class="paths__link" [routerLink]="['/adventure']"></a>
+        <img src="" alt="Картинка острова сокровищ">
+      </div>
+    </div>
+
+</div>
