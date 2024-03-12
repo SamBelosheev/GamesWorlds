@@ -1,0 +1,45 @@
+.page {
+  &__container {
+    display: flex;
+
+    flex-direction: column;
+    max-width: 99.375rem;
+    box-sizing: content-box;
+    margin: 20px auto;
+    padding: 0 0.9375rem;
+  }
+  &__up {
+    display: flex;
+    flex-direction: row;
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  &__right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    border-radius: 15px;
+    border: 1px solid gold;
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 30px;
+  }
+  &__text {}
+  &__slider {
+    display: flex;
+    align-items: center;
+  }
+  &__down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+}

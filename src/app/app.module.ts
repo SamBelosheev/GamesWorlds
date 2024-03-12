@@ -6,11 +6,11 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
-import { StrategyComponent } from './strategy/strategy.component';
+import { StrategyComponent } from './Company/strategy.component';
 import { MindComponent } from './mind/mind.component';
-import { AdventureComponent } from './adventure/adventure.component';
-import { SurvivelComponent } from './survivel/survivel.component';
+import { SurvivelComponent } from './Library/survivel.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +20,8 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     MainComponent,
     StrategyComponent,
     MindComponent,
-    AdventureComponent,
-    SurvivelComponent
+    SurvivelComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,

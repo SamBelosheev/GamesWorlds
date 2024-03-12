@@ -3,30 +3,37 @@
     <div class="header__logo logo-header">
       <h1 class="logo-header__title"><a [routerLink]="['/']">LOGO</a></h1>
     </div>
+    <div class="header__name"><h1>Beldini</h1></div>
     <div class="header__info info-header">
       <div class="info-header__phones phones-info">
-        <img class="phones-info__img" src="" alt="">
-        <a class="phones-info__phone" href="">+375252552525</a>
+        <img class="emails-info__img" src="{{ 'assets/icons/telegram.ico' }}" alt="mail">
+        <a class="phones-info__phone" href="tel:+79854905113">+7(985) 490-51-13</a>
       </div>
       <div class="info-header__emails emails-info">
-        <img class="emails-info__img" src="" alt="">
-        <a class="emails-info__email" href="">gameWorld@gmail.com</a>
+        <img class="emails-info__img" src="{{ 'assets/icons/telegram.ico' }}" alt="mail">
+        <a class="emails-info__email" href="mailto:beldini.ru@gmail.com">beldini.ru@gmail.com</a>
       </div>
       <div class="info-header__socials socials-info">
-        <div class="socials-info__instagram"></div>
-        <div class="socials-info__telegram"></div>
-        <div class="socials-info__VK"></div>
-        <div class="socials-info__WhatsApp"></div>
+        <div class="socials-info__instagram">
+          <img class="emails-info__img" src="{{ 'assets/icons/instagram.ico' }}" alt="mail">
+        </div>
+        <div class="socials-info__telegram">
+          <img class="emails-info__img" src="{{ 'assets/icons/telegram.ico' }}" alt="mail">
+        </div>
+        <div class="socials-info__Viber">
+          <img class="emails-info__img" src="{{ 'assets/icons/viber.ico' }}" alt="mail">
+        </div>
+        <div class="socials-info__WhatsApp">
+          <img class="emails-info__img" src="{{ 'assets/icons/whatsapp.ico' }}" alt="mail">
+        </div>
       </div>
     </div>
   </div>
   <div class="header__navigation navigation-header">
     <ul class="navigation-header__list">
-      <li  class="navigation-header__item"><a routerLinkActive="active" class="navigation-header__link" [routerLink]="['/strategy']">Стратегические Дюны</a></li>
-      <li  class="navigation-header__item"><a routerLinkActive="active" class="navigation-header__link" [routerLink]="['/mind']">Чертоги Головоломок</a></li>
-      <li  class="navigation-header__item"><a routerLinkActive="active" class="navigation-header__link" [routerLink]="['/survivel']">Пустоши Выживания</a></li>
-      <li  class="navigation-header__item"><a routerLinkActive="active" class="navigation-header__link" [routerLink]="['/adventure']">Острова Приключений</a></li>
-      <li  class="navigation-header__item"><a routerLinkActive="active" class="navigation-header__link" [routerLink]="['/dungeon']">Подземелье</a></li>
+      <li  class="navigation-header__item"><a routerLinkActive="active" class="navigation-header__link" [routerLink]="['/mind']">Company</a></li>
+      <li  class="navigation-header__item"><a routerLinkActive="active" class="navigation-header__link" [routerLink]="['/Company']">Products</a></li>
+      <li  class="navigation-header__item"><a routerLinkActive="active" class="navigation-header__link" [routerLink]="['/Library']">Library</a></li>
     </ul>
   </div>
 </div>
