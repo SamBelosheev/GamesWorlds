@@ -30,7 +30,7 @@
               { "glob": "favicon.ico", "input": "src/", "output": "/" }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           },

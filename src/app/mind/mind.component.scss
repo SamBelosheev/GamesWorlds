@@ -1,12 +1,12 @@
 .page {
+  background-color: black;
   &__container {
     display: flex;
-
     flex-direction: column;
-    max-width: 99.375rem;
     box-sizing: content-box;
-    margin: 20px auto;
-    padding: 0 0.9375rem;
+    margin: 0 auto;
+    padding: 100px 0.9375rem;
+    background-color: black;
   }
   &__up {
     display: flex;
@@ -23,6 +23,7 @@
     justify-content: center;
     border-radius: 15px;
     border: 1px solid gold;
+    background-color: antiquewhite;
   }
   &__title {
     display: flex;
@@ -30,8 +31,11 @@
     justify-content: center;
     font-style: italic;
     font-size: 30px;
+    color: antiquewhite;
   }
-  &__text {}
+  &__text {
+    color: antiquewhite;
+  }
   &__slider {
     display: flex;
     align-items: center;
