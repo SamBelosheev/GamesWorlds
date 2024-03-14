@@ -12,7 +12,7 @@
     height: 150px;
     border: 1px solid black;
     padding: 20px;
-    position: absolute;
+    position: center;
   }
   &__paths{
     display: flex;
@@ -28,27 +28,25 @@
     height: 150px;
     border: 1px solid black;
     padding: 20px;
+    z-index: 1;
   }
   &__mind {
     width: 150px;
     height: 150px;
     border: 1px solid black;
     padding: 20px;
-
   }
   &__survivel {
     width: 150px;
     height: 150px;
     border: 1px solid black;
     padding: 20px;
-
   }
   &__adventure {
     width: 150px;
     height: 150px;
     border: 1px solid black;
     padding: 20px;
-
   }
 }
 

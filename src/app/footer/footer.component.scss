@@ -1,6 +1,5 @@
 .footer {
-  background-color: black;
-  padding-bottom: 30px;
+  background-color: darkgray;
   &__title {
     display: flex;
     justify-items: center;
@@ -15,7 +14,6 @@
  .footer__container {
     display: flex;
    flex-direction: column;
-
  }
 
  .box-footer {
@@ -23,30 +21,18 @@
    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
    justify-items: center;
    &__left {}
-   &__map {
-     border-radius: 15px;
-     border: 1px solid gold;
-     display: flex;
-     color: white;
-     font-size: 36px;
-     align-items: center;
-     justify-content: center;
-   }
+   &__dragons {}
    &__right {}
  }
 
  .left-footer{
-   &__logo {
-     color: white;
-   }
-   &__text {
-     color: white;
-   }
+   &__logo {}
+   &__text {}
  }
 
  .right-footer {
    *li{
-     list-style-type: none;
+     list-style-type: none
    }
    &__list {
 
@@ -54,10 +40,7 @@
    &__item {
      padding: 5px 0;
      text-decoration: none;
-     color: white;
-     display: flex;
-     align-items: center;
-     gap: 25px;
+     color: black;
      &:hover {
        text-decoration: underline;
        color: gold;
@@ -68,13 +51,6 @@
      }
    }
    &__link {
-     color: white;
-     text-decoration: none;
    }
- }
-
- .emails-info__img {
-   width: 30px;
-   height: 30px;
  }
 
