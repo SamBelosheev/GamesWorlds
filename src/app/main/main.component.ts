@@ -16,7 +16,7 @@ import {bounceOutUp, flash, heartBeat, jackInTheBox, rubberBand} from "ng-animat
       transition('* => void', useAnimation(bounceOutUp, )),
 
     ]),
-    trigger('strategy', [
+    trigger('Company', [
       transition('void => *', useAnimation(jackInTheBox, {
           params: {
             timing:  4, delay: 0.1}
@@ -30,7 +30,7 @@ import {bounceOutUp, flash, heartBeat, jackInTheBox, rubberBand} from "ng-animat
         }
       ))
     ]),
-    trigger('survivel', [
+    trigger('Library', [
       transition('void => *', useAnimation(rubberBand, {
           params: {
             timing:  4, delay: 0.1}

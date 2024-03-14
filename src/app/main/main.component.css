@@ -13,7 +13,7 @@
   height: 150px;
   border: 1px solid black;
   padding: 20px;
-  position: center;
+  position: absolute;
 }
 .core__paths {
   display: flex;
@@ -29,7 +29,6 @@
   height: 150px;
   border: 1px solid black;
   padding: 20px;
-  z-index: 1;
 }
 .core__mind {
   width: 150px;
