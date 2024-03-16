@@ -7,50 +7,17 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
-}
-.header__name {
-  color: white;
-  font-size: 50px;
-  font-style: italic;
+  background-color: lightgrey;
 }
 .logo-header a {
   list-style-type: none;
   text-decoration: none;
-  color: white;
+  color: black;
   cursor: pointer;
 }
 
-.info-header {
-  text-decoration: none;
-  color: white;
-}
-.info-header__phones {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 10px 0;
-  color: white;
-  text-decoration: none;
-}
-.info-header__emails {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 10px 0;
-  color: white;
-  text-decoration: none;
-}
-.info-header__socials {
-  display: flex;
-  gap: 20px;
-  padding: 20px 0;
-  color: white;
-  text-decoration: none;
-}
-
 .navigation-header {
-  background-color: black;
+  background-color: grey;
 }
 .navigation-header * li {
   list-style-type: none;
@@ -62,7 +29,7 @@
 }
 .navigation-header__link {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .navigation-header__link:hover {
   text-decoration: underline;
@@ -72,31 +39,6 @@
 
 [class*=active] {
   color: orange;
-}
-
-.emails-info__img {
-  width: 35px;
-  height: 35px;
-}
-
-.phones-info__phone {
-  color: white;
-  text-decoration: none;
-}
-.phones-info__phone:hover {
-  text-decoration: underline;
-  color: gold;
-  transition: 0.5s;
-}
-
-.emails-info__email {
-  color: white;
-  text-decoration: none;
-}
-.emails-info__email:hover {
-  text-decoration: underline;
-  color: gold;
-  transition: 0.5s;
 }
 
 /*# sourceMappingURL=header.component.css.map */

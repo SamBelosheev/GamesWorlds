@@ -1,44 +1,17 @@
-.library {
-  background-color: black;
-  margin-top: -40px;
-  padding-bottom: 50px;
-}
-.library__container {
-  display: flex;
-  flex-direction: column;
-  margin: 40px 100px;
-  padding: 40px 0;
-  gap: 20px;
-}
-.library__title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-.library__box {
-  border-radius: 5px;
-  border: 1px solid white;
-  background-color: antiquewhite;
-}
-.library__card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-}
-.library__item {
-  margin: 0 20px;
-}
-.library__name {
-  margin: 0 20px;
-}
-.library__info {
-  cursor: pointer;
-  padding-left: 50px;
-}
-.library__text {
-  padding: 0 70px;
-}
+/* Error: expected "{".
+ *    ,
+ * 97 | >>>>>>> origin/master
+ *    |                      ^
+ *    '
+ *   survivel.component.scss 97:22  root stylesheet */
 
-/*# sourceMappingURL=survivel.component.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 97 \2502  >>>>>>> origin/master\a    \2502                       ^\a    \2575 \a   survivel.component.scss 97:22  root stylesheet';
+}
