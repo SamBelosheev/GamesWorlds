@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "gamesWorlds:build:production"
+              "buildTarget": "gamesWorlds:build:production"
             },
             "development": {
-              "browserTarget": "gamesWorlds:build:development"
+              "buildTarget": "gamesWorlds:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "gamesWorlds:build"
+            "buildTarget": "gamesWorlds:build"
           }
         },
         "test": {
