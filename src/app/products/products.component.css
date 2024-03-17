@@ -1,17 +1,93 @@
-/* Error: expected "{".
- *     ,
- * 179 | >>>>>>> origin/master
- *     |                      ^
- *     '
- *   products.component.scss 179:22  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a     \2577 \a 179 \2502  >>>>>>> origin/master\a     \2502                       ^\a     \2575 \a   products.component.scss 179:22  root stylesheet';
+.products-card__container {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 3fr;
+  justify-items: center;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px 0;
+  box-shadow: 0 4px 20px rgba(232, 170, 49, 0.43);
 }
+.products-card__container:hover {
+  box-shadow: 0 4px 25px rgba(232, 170, 49, 0.63);
+}
+.products-card__img {
+  max-width: 150px;
+  max-height: 150px;
+}
+.products-card__img:hover {
+  scale: 1.5;
+  transition: 0.3s;
+}
+.products-card__button {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: black;
+}
+.products-card__details {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.details-products__counter {
+  display: flex;
+  gap: 40px;
+}
+.btn-dark {
+  transition: 0.3s;
+  background-color: yellow;
+}
+
+.btn {
+  background-color: gold;
+  transition: 0.3s;
+}
+
+.products-card__container {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 3fr;
+  justify-items: center;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px 0;
+  box-shadow: 0 4px 20px rgba(232, 170, 49, 0.43);
+}
+.products-card__container:hover {
+  box-shadow: 0 4px 25px rgba(232, 170, 49, 0.63);
+}
+.products-card__img {
+  max-width: 150px;
+  max-height: 150px;
+}
+.products-card__img:hover {
+  scale: 1.5;
+  transition: 0.3s;
+}
+.products-card__button {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: black;
+}
+.products-card__details {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.details-products__counter {
+  display: flex;
+  gap: 40px;
+}
+.btn-dark {
+  transition: 0.3s;
+  background-color: yellow;
+}
+
+.btn {
+  background-color: gold;
+  transition: 0.3s;
+}
+
+/*# sourceMappingURL=products.component.css.map */
